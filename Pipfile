@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+numpy = "*"
+tensorflow = "*"
+scikit-learn = "*"
+ipykernel = "*"
+matplotlib = "*"
+flask = "*"
+flask-cors = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
